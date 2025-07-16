@@ -93,6 +93,10 @@ nav ul li a:hover {
         font-weight: 600;
     }
 
+    .sidebar a:hover {
+        transform: none;
+    }
+
     .close-menu {
         width: 24px;
         height: 24px;
