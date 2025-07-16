@@ -46,3 +46,46 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 500px) {
+
+    footer {
+        padding: 0;
+        padding: 58px 20px;
+    }
+
+    .contents {
+        flex-direction: column;
+        padding: 0px 0px 20px 0px;
+    }
+
+    .left h3 {
+        font-size: 1.5rem;
+    }
+
+    .left button {
+        width: 180px;
+        font-size: 1.1rem;
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    .left button:hover {
+        transform: none;
+    }
+
+    .right h3 {
+        font-size: 1.5rem;
+        margin-top: 60px;
+    }
+
+    .right img {
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .rights p {
+        display: none;
+    }
+
+}
